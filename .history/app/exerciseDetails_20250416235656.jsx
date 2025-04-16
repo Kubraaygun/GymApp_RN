@@ -65,7 +65,7 @@ export default function exerciseDetails() {
           style={{ fontSize: hp(2) }}
           className=" text-neutral-800 tracking-wide"
         >
-          Target:
+          Target
           <Text className="font-bold text-neutral-800">{item?.target}</Text>
         </Animated.Text>
         <Animated.Text
