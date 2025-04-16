@@ -6,7 +6,6 @@ import {
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
 import Ionicons from "react-native-vector-icons/Ionicons";
-import ImageSlider from "../components/ImageSlider";
 export default function Home() {
   return (
     <SafeAreaView className="flex-1 bg-white flex space-y-5" edges={["top"]}>
@@ -41,12 +40,6 @@ export default function Home() {
             <Ionicons name="notifications" size={hp(3)} color="gray" />
           </View>
         </View>
-      </View>
-
-      {/* Image Slider
-       */}
-      <View>
-        <ImageSlider />
       </View>
     </SafeAreaView>
   );

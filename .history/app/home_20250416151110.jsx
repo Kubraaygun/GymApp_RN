@@ -5,8 +5,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from "react-native-responsive-screen";
-import Ionicons from "react-native-vector-icons/Ionicons";
-import ImageSlider from "../components/ImageSlider";
+import Icon from "react-native-vector-icon/FontAwesome";
 export default function Home() {
   return (
     <SafeAreaView className="flex-1 bg-white flex space-y-5" edges={["top"]}>
@@ -34,19 +33,8 @@ export default function Home() {
             style={{ height: hp(6), width: hp(6) }}
             className="rounded-full"
           />
-          <View
-            className="bg-neutral-200 rounded-full flex justify-center items-center  border-[3px] border-neutral-300"
-            style={{ height: hp(5.5), width: hp(5.5) }}
-          >
-            <Ionicons name="notifications" size={hp(3)} color="gray" />
-          </View>
+          <View className="bg-neutral-200 rounded-full flex justify-center items-center"></View>
         </View>
-      </View>
-
-      {/* Image Slider
-       */}
-      <View>
-        <ImageSlider />
       </View>
     </SafeAreaView>
   );
